@@ -1,6 +1,7 @@
 h1{
-    font-family: "ITC Serif Gothic";
+    font-family: "Ruslan Display",cursive;
     font-weight: bold;
+    text-shadow:5px 2px #42dafa; 
     background-color:rgba(255, 0, 0, 0.767);
     text-align: center;
     font-size: 70px;
@@ -16,28 +17,39 @@ a{
     text-decoration: none;
 }
 body{
-    color: #fff;
+    font-family: 'Caveat Brush', cursive;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    background-image: url("maxresdefault-13.jpg");
+    background-image: url("star-wars-sabre-laser-sith.jpg");
     margin: 8em;
-    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-size: 25px;
     background-attachment: fixed;
     background-size: cover;
 }
 footer{
-    background-color: rgba(255, 0, 0, 0.767);
+    font-family: sans-serif;
+    background-image: linear-gradient(red,blue);
     height: 100px;
 }
 img{
     display: block;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+   padding: 5px;
     width: 20%;
     height: 20%;
 }
 #Roller{
-    letter-spacing: 0.2in;
+    background-image: url("star\ wars.jpg");
+    letter-spacing: 0.3in;
 }
 .pics{
     float: right;
+}
+section{
+    border:solid #42dafa;
+    padding: 3px;
+}
+#quote{
+    color: green;
 }
