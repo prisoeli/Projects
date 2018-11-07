@@ -241,10 +241,10 @@
             <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                 The Teams
             </button>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu ">
                 <h5 class="dropdown-header">National Teams</h5>
-                <a class="dropdown-item" href="#Ireland" data-toggle="collapse" data-target="#Ireland">Ireland</a>
-                <a class="dropdown-item"  href="#Bulgaria" data-toggle="collapse" data-target="#Bulgaria">Bulgaria</a>
+                <a class="dropdown-item" href="#Ireland" data-toggle="collapse">Ireland</a>
+                <a class="dropdown-item"  href="#Bulgaria" data-toggle="collapse">Bulgaria</a>
                 <a class="dropdown-item"  href="#Brazil" data-toggle="collapse">Brazil</a>
                 <a class="dropdown-item"  href="#USA" data-toggle="collapse"> USA</a>
                 <h5 class="dropdown-header">Hogwarts Teams</h5>
@@ -254,15 +254,15 @@
                 <a class="dropdown-item"  href="#Slytherin" data-toggle="collapse">Slytherin</a>
             </div>
         </div>
-        <div id='desc-teams' class="collapse">
-            <div id='Ireland'>
+        <div id='desc-teams' >
+            <div id='Ireland' class="collapse" data-parent="#desc-teams">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/6/68/Irelandcrest.JPG/revision/latest/scale-to-width-down/350?cb=20110529164318'>
                 <p>The Irish National Quidditch Team are a national Quidditch team representing Ireland. They won the
                     1994 Quidditch
                     World Cup, beating Bulgaria in the final. The mascots of the team are Leprechauns.</p>
                 <a href="http://harrypotter.wikia.com/wiki/Irish_National_Quidditch_team">LEARN MORE</a>
             </div>
-            <div id='Bulgaria'>
+            <div id='Bulgaria'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/2/2c/Bulgariacrest.JPG/revision/latest/scale-to-width-down/350?cb=20110529164032'>
                 <p>The Bulgarian National Quidditch Team is the national Quidditch team of Bulgaria. In 1994, Bulgaria
                     reached
@@ -275,14 +275,14 @@
                     rush of controversy.</p>
                 <a href='http://harrypotter.wikia.com/wiki/Bulgarian_National_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='Brazil'>
+            <div id='Brazil' class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/7/74/720px-Flag_of_Brazil.png/revision/latest/scale-to-width-down/350?cb=20091128144932'>
                 <p>The Brazilian National Quidditch team is the national Quidditch team of Brazil. Their mascots for
                     the 2014
                     Quidditch World Cup final were Curupiras.</p>
                 <a href='http://harrypotter.wikia.com/wiki/Brazilian_National_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='USA'>
+            <div id='USA'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/a/a3/American_National_Quidditch_team.jpg/revision/latest?cb=20090409033037'>
                 <p>The U.S.A. has a basketball-style Team Special Move named The Harlem Shuffle (20 points). The name
                     is taken
@@ -291,7 +291,7 @@
                     and entertaining play involving a ball of similar size to the Quaffle, during games.</p>
                 <a href='http://harrypotter.wikia.com/wiki/American_National_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='Gryffindor'>
+            <div id='Gryffindor'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/d/d3/Gryffindor%E2%84%A2_Quidditch%E2%84%A2_Badge.png/revision/latest?cb=20160731003525'>
                 <p>The Gryffindor Quidditch team is the Quidditch team of Hogwarts School of Witchcraft and Wizardry's
                     Gryffindor
@@ -305,7 +305,7 @@
                     was the Keeper.</p>
                 <a href='http://harrypotter.wikia.com/wiki/Gryffindor_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='Hufflepuff'>
+            <div id='Hufflepuff'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/b/b1/Hufflepuff%E2%84%A2_Quidditch%E2%84%A2_Badge.png/revision/latest?cb=20091129181210'>
                 <p>The Hufflepuff Quidditch team is the Quidditch team of Hogwarts School of Witchcraft and Wizardry's
                     Hufflepuff
@@ -314,14 +314,14 @@
                     Quidditch team is a badger. One known captain of the team was Cedric Diggory.</p>
                 <a href='http://harrypotter.wikia.com/wiki/Hufflepuff_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='Ravenclaw'>
+            <div id='Ravenclaw'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/4/4b/Ravenclaw%E2%84%A2_Quidditch%E2%84%A2_Badge.png/revision/latest?cb=20091129181211'>
                 <p>The Ravenclaw Quidditch team is one of the four house Quidditch teams at Hogwarts School of
                     Witchcraft and
                     Wizardry. One known captain of the Quidditch team was Roger Davies.</p>
                 <a href='http://harrypotter.wikia.com/wiki/Ravenclaw_Quidditch_team'>LEARN MORE</a>
             </div>
-            <div id='Slytherin'>
+            <div id='Slytherin'class="collapse">
                 <img src='https://vignette.wikia.nocookie.net/harrypotter/images/5/5d/Slytherin%E2%84%A2_Quidditch%E2%84%A2_Badge.png/revision/latest?cb=20091129181212'>
                 <p>The Slytherin Quidditch team is the Quidditch team for the Hogwarts Slytherin house. Each year, they
                     compete
@@ -348,7 +348,7 @@
     </section>
 
     <!-- However you want to customize this, I would definately make it smaller-->
-    <footer class='container text-center footer' style='margin-top:500px; height:200px'>
+    <footer class='container text-center footer' style='margin-top:200px; height:200px'>
         <h4>website created by Joshua Law</h4>
         <p>This website is intended for educational purposes and all materials used are for this purpose.</p>
     </footer>
