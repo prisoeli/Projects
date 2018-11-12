@@ -1,0 +1,28 @@
+carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+.carousel-inner{
+    text-align: center;
+    height: 200px;
+}
+#navOptions{
+   color: black; 
+}
+.navbar{
+    color: red;
+}
+body{
+    background-color: burlywood;
+}
+#desc-snitch{
+    margin-left: 60px;
+}
+#pictures img{
+width: 365px;
+height: auto;
+padding: 5px;
+}
